@@ -1,0 +1,23 @@
+.fond_qsn {
+    background-color: rgb(242,242,242);
+  }
+
+.menuselection {
+    width: 647;
+    height: 78;
+    size: 70;
+    text-align : center;
+    font-family: "Garamond";
+    color: rgb(74, 74, 74);
+}
+
+.texteqsn {
+    width: 196;
+    height: 1654;
+    line-height: 30pt;
+    letter-spacing: 0pt;
+    size: 21;
+    align-content : center;
+    font-family: "ArialMT";
+    color: rgb(102, 102, 94);
+}
