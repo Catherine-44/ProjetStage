@@ -1,0 +1,29 @@
+.navbar {
+    opacity: 0.6;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.nav-link {
+    font-size: 0.9em;
+    color :rgb(255, 255, 255);
+}
+.titre {
+    font-family: garamond;
+    color : white;
+    text-align:center;
+    margin-top: 200px;
+    font-size: 4em;
+}
+div.bordure {
+    border-bottom:1.5px solid rgb(255, 255, 255);
+    font-size:18px;
+    text-align:left;
+    height:50px;
+    vertical-align:middle;
+    line-height: 50px;
+}
