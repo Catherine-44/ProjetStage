@@ -1,0 +1,37 @@
+.menuselection {
+    width: 647pt;
+    height: 78pt;
+    size: 70;
+    left: 100pt;
+    font-size: 30;
+    text-align : center;
+    font-family: "Garamond";
+    color: rgb(74, 74, 74);
+}
+
+.divqsn {
+    top:788pt;
+    left: 196pt;
+    right: 1055pt;
+    position:absolute;
+    line-height: 30pt;
+    text-align : left;
+    width: 500pt;
+    height: 547pt;
+}
+
+.textqsn {
+    font-family: Helvetica, sans-serif;
+    color: rgb(102, 102, 94);
+    letter-spacing: 0px;
+    size: 21;
+    text-align: center;
+    right: 600pt;
+}
+
+.imagepc {
+    position: absolute;
+    width: 300pt;
+    top : 950pt;
+    right: 250pt;
+}
