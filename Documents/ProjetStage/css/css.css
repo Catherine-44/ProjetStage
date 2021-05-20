@@ -6,17 +6,17 @@
     background-position: center;
     background-size: cover;
     color: #ffffff;
-    padding: 260px 0 200px 0;
+    padding: 385px 0 200px 0;
     border-width : 0;
 }
 
 .section2{
-    height: 350pt;
+    height: 1250pt;
     width: 1920pt;
-    background: rgb(242 242 242);
+    background: rgb(242,242,242);
     background-position: center;
     background-size: cover;
-    padding: 260px 0 200px 0;
+    padding: 650px 0 200px 0;
 }
 
 .section3{
