@@ -83,3 +83,9 @@
     background-color: rgb(74,74,74);
     padding: 30px 0;
 }
+
+.responsive {
+    max-width : 100%;
+    height: auto;
+    display: block;
+}
