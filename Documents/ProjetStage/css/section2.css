@@ -1,37 +1,84 @@
-.menuselection {
-    width: 647pt;
-    height: 78pt;
-    font-size: 44;
-    text-align : center;
-    left: 500px;
-    font-family: "Garamond";
-    color: rgb(74, 74, 74);
+.about{
+    font-family: garamond;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-
-.divqsn {
-    top:790pt;
-    left: 196pt;
-    right: 1055pt;
-    position:absolute;
-    line-height: 30pt;
-    text-align : left;
-    width: 500pt;
-    height: 547pt;
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
-
-.textqsn {
-    font-family: Helvetica, sans-serif;
+.about .about-content .right{
+    width: 45%;
+}
+.about .about-content .right img{
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 80px;
+    object-fit: cover;
+}
+.about .about-content .left{
+    width: 55%;
+}
+.about .about-content .left .text{
     font-size: 15px;
     color: rgb(102, 102, 94);
-    letter-spacing: 0px;
-    size: 21;
-    text-align: center;
-    right: 600pt;
+    font-family: Helvetica, sans-serif;
+    text-align: justify;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.about .about-content .left .text span{
+    color: rgb(36, 85, 190);
+}
+.about .about-content .left p{
+    text-align: justify;
+}
+.about .about-content .left h4{
+    text-align: justify;
+    /*font-weight:bold;*/
+    color: rgb(36, 85, 190);
+}
+.about .about-content .left a{
+    display: inline-block;
+    background: rgb(36, 85, 190);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(36, 85, 190);
+    transition: all 0.3s ease;
+}
+.about .about-content .left a:hover{
+    color: rgb(36, 85, 190);
+    background: none;
 }
 
-.imagepc {
-    position: absolute;
-    width: 300pt;
-    top : 900pt;
-    right: 250pt;
+@media (max-width: 1104px) {
+    .about .about-content .right img{
+        height: 350px;
+        width: 350px;
+    }
 }
+@media (max-width: 947px){
+    .about .about-content .column{
+        width: 100%;
+    }
+    .about .about-content .right{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .left{
+        flex: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .about .about-content .left .text{
+        font-size: 19px;
+    }
+}
+

@@ -12,12 +12,12 @@
     font-size: 0.9em;
     color :rgb(255, 255, 255);
 }
-.titre {
+.titre p{
     font-family: garamond;
     color : white;
     text-align:center;
     font-size: 4em;
-    margin-top: 16px;
+    margin-top: -116px;
 }
 .texte {
     color :rgb(255, 255, 255);
