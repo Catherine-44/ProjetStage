@@ -1,0 +1,32 @@
+.cercle {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    background: #7d7d7d;
+    border: inside, 1px solid rgb(74,74,74);
+    opacity: 11%;
+    vertical-align: middle;
+}
+
+.np {
+    font-size: 40;
+    text-align: center;
+    color: rgb(74,74,74);
+}
+
+.verti {
+    color: rgb(249,180,45);
+    top: 500px;
+}
+
+.cercle p {
+    color: rgb(249,180,45);
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.div {
+    display: inline-flexbox;
+}
