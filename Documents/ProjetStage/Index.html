@@ -9,6 +9,8 @@
         <link href="css/section3.css" rel="stylesheet" type="text/css">
         <link href="css/section4.css" rel="stylesheet" type="text/css">
         <link href="css/section75.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css%22%3E">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -81,26 +83,96 @@
     </section>
 
     <div class="section3 responsive">
-        <p class="ovlr "> On vous les recommande </p>
+        <p class="ovlr "> On vous les recommande </p><br>
+        
+        <div class="col-md-12">
 
-        <div class="carre">
-            <!-- <img class="imgpoulet" src="Image/poulet.jpg"> -->
+            <div id="carouselExample" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExample" data-slide-to="0" class="active">
+                        <img class="rounded-circle" src="https://www.pagesjaunes.fr/media/fcp/06078327-a28da70afe2e56fb619e7ba762d02655.gif?w=100&h=100&crop=true" alt="First slide">
+                    </li>
+                    <li data-target="#carouselExample" data-slide-to="1">
+                        <img class="rounded-circle" src="https://assets.justacote.com/photos_entreprises_mini/mini_creperie-de-paris-grenoble-146073569554.jpg" alt="Second slide">
+                    </li>
+                    <li data-target="#carouselExample" data-slide-to="2">
+                        <img class="rounded-circle" src="https://assets.justacote.com/photos_entreprises_mini/mini_creperie-la-tablee-angers-146217613777.jpg" alt="Third slide">
+                    </li>
+                </ol>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                        <blockquote class="blockquote">
+                            La calabraise
+                        </blockquote>
+                        <small>
+                           Le mariage parfait entre la crêpe bretonne et les saveurs de la Sicile. Parait pour les grosses faim comme pour la partager !  
+                        </small>                            
+
+                    </div>
+                    <!-- End of Carousel Item 1 -->
+
+                    <div class="carousel-item">
+
+                        <blockquote class="blockquote">
+                            La basique
+                        </blockquote>
+                        <small>
+                            Une crêpe de qualité.
+                        </small>   
+
+                    </div>
+                    <!-- End of Carousel Item 2 -->
+
+                    <div class="carousel-item">
+
+                        <blockquote class="blockquote">
+                            La tartiflette 
+                        </blockquote>
+                        <small>
+                            Le même goût qu'on connait si bien.
+                        </small>   
+
+                    </div>
+                    <!-- End of Carousel Item 3 -->
+
+                </div>
+                <!-- End of Carousel Inner -->
+
+                <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+
+                    <i class="fas fa-chevron-circle-left fa-2x"></i>
+
+                </a>
+                <!-- End of Carousel Control Prev -->
+
+                <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+
+                    <i class="fas fa-chevron-circle-right fa-2x"></i>
+
+                </a>
+                <!-- End of Carousel Control Next -->
+
+            </div>
+            <!-- End of CarouselExample -->
+
         </div>
+        <!-- End of Col-md-12 -->
+
     </div>
 
     <div class="section4 responsive">
         <p class="np"> Nos prestations</p>
         <center>
             <div id="presta">
-                <div class="oui"><div class="cercle"> </div><p class="verti">A emporter</p></div>
-                <div class="oui"><div class="cercle">  </div><p class="verti">Sur place</p></div>
-                <div class="oui"><div class="cercle"> </div><p class="verti">Click & Collect</p></div>
+                <div id="un" class="oui"><div class="cercle"> </div><p class="verti">A emporter</p></div>
+                <div id="2" class="oui"><div class="cercle">  </div><p class="verti">Sur place</p></div>
+                <div id="3" class="oui"><div class="cercle"> </div><p class="verti">Click & Collect</p></div>
                
             </div>
         </center>
-        <!-- <div class="verti"> 
-            <p>A emporter</p> <p>Sur place</p> <p>Click & Collect</p>
-        </div> -->
     </div>
 
     <section id="Photos">

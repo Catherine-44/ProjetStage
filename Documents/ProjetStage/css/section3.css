@@ -1,44 +1,71 @@
-.carre {
-    background-color: rgb(255, 255, 255);
-    width: 1500px;
-    height: 800px;
-    padding-bottom: 30%;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.carre img{
-    vertical-align: middle;
-    width: 400px;
-}
-
 .ovlr {
+    color : black;
     font-size: 40;
     text-align: center;
 }
 
-.poulet-center {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  
+#carouselExample{
+    text-align:center;
+    margin-top:50px
 }
-.poulet-center p {
-	font-size: 24px;
-	color: #fff;
-	text-align: center;
-	padding-left: 30px;
-	padding-right: 30px
+#carouselExample .carousel-indicators{
+    position:relative;
+    bottom:0;
+    height:150px
 }
-
-/* .imgpoulet {
-    vertical-align: middle;
-    width: 400px;
-    margin-top: 50%;
-    margin-bottom: 50%;
-}    */
+#carouselExample .carousel-indicators li{
+    width:auto;
+    height:auto;
+    text-indent:0%;
+    background-color:transparent;
+    margin-left:20px;
+    margin-right:20px;
+    flex-direction:column
+}
+#carouselExample .carousel-indicators li img{
+    transition:0.5s
+}
+#carouselExample .carousel-indicators li.active{
+    transition:0.5s
+}
+#carouselExample .carousel-indicators li.active img{
+    transform:scale(1.5);
+    transition:transform 1s ease-in-out
+}
+#carouselExample .carousel-item{
+    transition:1s linear
+}
+#carouselExample .blockquote{
+    color : black;
+    font-style:italic;
+    font-weight:bold
+}
+#carouselExample small{
+    color : black;
+    text-align:right
+}#carouselExample i{
+    text-align : center;
+    color:#222
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+.carousel-title{
+    font-size:18px;
+    margin-top:20px
+}
+#carouselExample .blockquote{
+    font-size:15px;
+    text-align:center;
+    margin:20px 0
+}
+#carouselExample small{
+    text-align:center;
+    display:block
+}
+#carouselExample .carousel-indicators li{
+    margin-left:8px;
+    margin-right:8px
+}
+#carouselExample .carousel-indicators li.active img{
+    transform:scale(1.2)
+}}
