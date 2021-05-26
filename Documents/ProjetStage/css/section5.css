@@ -3,3 +3,10 @@
     font-size: 40;
     text-align: center;
 }
+
+.galeriephoto {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+
+}
