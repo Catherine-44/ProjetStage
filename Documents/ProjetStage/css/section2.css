@@ -10,7 +10,7 @@
     justify-content: space-between;
 }
 .about .about-content .right{
-    width: 45%;
+    width: 40%;
 }
 .about .about-content .right img{
     width: 400px;
@@ -20,6 +20,7 @@
 }
 .about .about-content .left{
     width: 55%;
+    margin-left: 45px;
 }
 .about .about-content .left .text{
     font-size: 15px;
