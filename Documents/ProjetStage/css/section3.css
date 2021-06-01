@@ -7,3 +7,79 @@
 .card-body{
   color:rgb(74, 74, 74);
 }
+
+.poulet {
+  width: 400px;
+}
+
+#img {
+  width: 400px;
+  float: left;
+
+}
+
+.descritionPlat {
+  display: inline;
+  color: black;
+  }
+
+.choix1{
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  left: 50px;
+}  
+.choix2{
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}  
+.choix3{
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  left: 150px;
+}  
+.suivant{
+  position: relative;
+  top: 50px;
+  left: 490px;
+  color : black;
+}
+.precedent{
+  position: relative;
+  top: 70px;
+  color: black;
+}
+
+/*
+#bloc3 div{
+  display: inline-block;
+  width: 48%;
+}*/
+.imgPrincipal{
+  display: inline-block;
+  position: relative;
+  right: auto;
+  left: 20%;
+}
+.textSlider{
+  display: inline-block;
+  width: 30%;
+  height: 30%;
+  position: relative;
+  left: 30%;
+}
+.slider img{
+  width: 100px;
+  border-radius: 100%;
+}
+/*
+.texte div{
+  display: inline-block;
+  width: 48%;
+} */
+.descritionPlat{
+  width: 30px;
+}

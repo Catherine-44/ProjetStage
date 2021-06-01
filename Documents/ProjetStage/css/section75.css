@@ -8,11 +8,17 @@ background-color: #D3D3D3; }
 .contact_details {
 text-align: left;
 position: absolute;
+padding-top: 140px;
+padding-left: 200px;
 right: 0;
 margin: 3em 0;
 z-index: 99;
 width: 55%;
 color: #fff; }
+
+.contact_details a:hover{
+    color: black;
+}
 
 .contact_details > div {
 padding: 1.5em; }
@@ -63,7 +69,6 @@ margin-top: 1.2em;
 vertical-align: top; }
 
 .circle_icon {
-/* background: #75c3bf; */
 width: 82px;
 height: 82px;
 border-radius: 41px;
