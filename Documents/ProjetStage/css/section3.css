@@ -13,73 +13,40 @@
 }
 
 #img {
-  width: 400px;
+  width: 465px;
   float: left;
 
 }
 
-.descritionPlat {
-  display: inline;
-  color: black;
-  }
-
-.choix1{
-  display: inline-block;
-  position: relative;
-  top: 100px;
-  left: 50px;
-}  
-.choix2{
-  display: inline-block;
-  position: relative;
-  top: 100px;
-  left: 100px;
-}  
-.choix3{
-  display: inline-block;
-  position: relative;
-  top: 100px;
-  left: 150px;
-}  
-.suivant{
-  position: relative;
-  top: 50px;
-  left: 490px;
-  color : black;
-}
-.precedent{
-  position: relative;
-  top: 70px;
-  color: black;
-}
-
-/*
-#bloc3 div{
-  display: inline-block;
-  width: 48%;
-}*/
-.imgPrincipal{
-  display: inline-block;
-  position: relative;
-  right: auto;
-  left: 20%;
-}
-.textSlider{
-  display: inline-block;
-  width: 30%;
-  height: 30%;
-  position: relative;
-  left: 30%;
-}
-.slider img{
-  width: 100px;
-  border-radius: 100%;
-}
-/*
-.texte div{
-  display: inline-block;
-  width: 48%;
-} */
 .descritionPlat{
   width: 30px;
+}
+
+#Global {
+  background-color: white;
+}
+
+#Global #gauche {
+  float:left;
+  width:60%;
+}
+#Global #droite {
+  text-align: left;
+  margin-left:40%;
+  width: 450px;
+  height: 450px;
+}
+
+.textemenu {
+  color: black;
+}
+
+hr {
+  text-align: center;
+  size: 3px;
+}
+
+.nomplat {
+  color: rgb(63,63,63);
+  font-size: x-large;
 }
