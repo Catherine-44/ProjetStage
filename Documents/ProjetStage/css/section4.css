@@ -29,29 +29,21 @@
     margin-right: auto;
 }
 
-/* #un .cercle {
-    background-image: url("../Image/emporter.png");
-} */
-
 #presta div{
     display: inline-block;
 }
 
-.oui p{
-    color: rgb(249,180,45);
-    opacity: none;
-}
-
-.cercle:hover{
+/* .cercle:hover{
     background-color: rgb(249,180,45);
     transition-duration: 0.6s;
-}
+} */
+
 .icon i{
     font-size: 60px;
     margin-top: 35%;
     color: rgb(249,180,45);
 }
 
-.icon:hover i{
+/* .icon:hover i{
     color: white;
-}
+} */
