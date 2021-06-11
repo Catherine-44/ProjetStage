@@ -13,9 +13,9 @@
     width: 40%;
 }
 .about .about-content .right img{
-    width: 400px;
+    width: 80%;  /* Bafodé  */
     margin-top: 50px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     object-fit: cover;
 }
 .about .about-content .left{
